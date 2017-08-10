@@ -1,0 +1,27 @@
+{
+  "name": "mutant-testing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "stryker": "stryker run stryker.conf.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-jest": "^20.0.3",
+    "babel-preset-env": "^1.6.0",
+    "jest": "^20.0.4",
+    "regenerator-runtime": "^0.10.5",
+    "stryker": "^0.7.0",
+    "stryker-api": "^0.6.0",
+    "stryker-jasmine": "^0.3.0",
+    "stryker-jest-runner": "0.0.6"
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.jsx?$": "babel-jest"
+    }
+  }
+}
