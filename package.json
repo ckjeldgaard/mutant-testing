@@ -13,6 +13,7 @@
     "babel-jest": "^20.0.3",
     "babel-preset-env": "^1.6.0",
     "jest": "^20.0.4",
+    "jest-cli": "^20.0.4",
     "regenerator-runtime": "^0.10.5",
     "stryker": "^0.7.0",
     "stryker-api": "^0.6.0",
