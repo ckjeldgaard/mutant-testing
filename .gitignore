@@ -1,2 +1,5 @@
-node_modules
-.stryker-tmp
+node_modules/
+.stryker-tmp/
+.idea
+*.iml
+npm-debug.log
